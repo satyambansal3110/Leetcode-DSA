@@ -9,7 +9,7 @@
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        unordered_map<ListNode*, int> mp;   // store node address
+        unordered_map<ListNode*, int> mp;   
         ListNode* p = head;
         int x = 0;
 
