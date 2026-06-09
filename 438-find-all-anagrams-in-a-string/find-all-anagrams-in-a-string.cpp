@@ -21,8 +21,8 @@ public:
         }
 
         for (int i = m; i < n; i++) {
-            freqS[s[i] - 'a']++;          // add new character
-            freqS[s[i - m] - 'a']--;      // remove old character
+            freqS[s[i] - 'a']++;          
+            freqS[s[i - m] - 'a']--;      
 
             if (freqP == freqS) {
                 ans.push_back(i - m + 1);
